@@ -1,18 +1,19 @@
 body{
   background-color: #030303;
+  color: #9f9f9f
 }
 h1 {
-  color: #9f9f9f;
 }
 p{
-  color: #9f9f9f;
+  clear:left;
 }
 img{
   margin-right: 15px;
   width: 25%;
   height: 25%;
+  float: left;
 }
 img:hover{
-  width: 75%;
-  height: 75%;
+  width: 70%;
+  height: 70%;
 }
