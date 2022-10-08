@@ -40,7 +40,7 @@
   --bs-warning: #e4c662;
   --bs-danger: #a16468;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: #030304;
   --bs-black: #000;
   --bs-white: #fff;
   --bs-primary-rgb: 100, 161, 157;
@@ -50,7 +50,7 @@
   --bs-warning-rgb: 228, 198, 98;
   --bs-danger-rgb: 161, 100, 104;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 3, 3, 4;
   --bs-black-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-white-rgb: 255, 255, 255;
@@ -11474,13 +11474,13 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: rgba(47, 48, 56, 0.74);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: rgb(215, 3, 41);
+  border: 1px solid rgba(215, 3, 41, 0.79);
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11491,7 +11491,7 @@ body {
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#fff, 80%);
+  color: fade(rgba(47, 48, 56, 0.45), 80%);
   outline: none;
   background-color: transparent;
 }
@@ -11523,13 +11523,13 @@ body {
     color: #ffffff;
   }
   #mainNav.navbar-shrink {
-    background-color: rgba(47, 48, 56, 0.74);
+    background-color: rgba(12, 12, 16, 0.6);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #d00808;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: rgba(255, 255, 255, 0.5);
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
