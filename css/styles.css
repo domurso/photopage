@@ -11618,7 +11618,7 @@ body {
 }
 
 .projects-section img {
-  opacity:0.55;
+  opacity:0.95;
   filter:alpha(opacity=55);
 }
 .projects-section img:hover {
