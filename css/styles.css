@@ -10,6 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11562,7 +11563,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../photos/gradconfet.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%,  rgba(0, 0, 0, .4) 75%, #000 100%), url("../photos/gradconfet.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11615,6 +11616,16 @@ body {
 .projects-section {
   padding: 10rem 0;
 }
+
+.projects-section img {
+  opacity:0.55;
+  filter:alpha(opacity=55);
+}
+.projects-section img:hover {
+  opacity:1;
+  filter:alpha(opacity=100);
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
@@ -11698,3 +11709,4 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
