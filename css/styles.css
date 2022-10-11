@@ -4628,7 +4628,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgba(77, 3, 16, 0.75);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4659,6 +4659,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+
 }
 
 .card-title {
@@ -11607,7 +11608,8 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+  border-bottom: dimgray solid 1px;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11710,3 +11712,6 @@ body {
   padding: 5rem 0;
 }
 
+.list-no-dots{
+  list-style-type: none;
+}
